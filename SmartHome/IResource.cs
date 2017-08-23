@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SmartHome
 {
-    public interface IController
+    interface IResource
     {
-        double GetSignal();
-        void SetValue();
+        string Name { get; set; }
+
     }
 }
