@@ -5,10 +5,15 @@ using System.Text;
 
 namespace cw
 {
-    class Program
-    {
+    class Program { 
         static void Main(string[] args)
         {
+            User user = new User();
+
+            user.CreationDate = null;
+            user.Login = null;
+            user.IsDeleted = null;
+            user.Type = null;
         }
     }
 }

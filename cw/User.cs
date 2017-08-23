@@ -5,7 +5,11 @@ using System.Text;
 
 namespace cw
 {
-    class Class1
+    class User
     {
+        public bool? IsDeleted { get; set; } //create nullable type
+        public string Login { get; set; }
+        public DateTime? CreationDate { get; set; }
+        public int? Type { get; set; }
     }
 }
