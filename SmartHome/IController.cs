@@ -5,13 +5,20 @@ using System.Text;
 
 namespace SmartHome
 {
-    interface IController
+    public interface IController
     {
+        /* Get-set properties level  */
+
         double Light { get; set; }
+        
         double Temperature { get; set; }
+
         double Humidity { get; set; }
 
-        
+        double Water { get; set; }
 
+        int Food { get; set; }
+
+        double Electricity { get; set; }
     }
 }
